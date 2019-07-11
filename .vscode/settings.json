@@ -1,0 +1,14 @@
+{
+    //"python.pythonPath": "C:\\Users\\mi\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe",
+    "python.testing.pytestArgs": [
+        ".", "-v", "--tb=line"
+    ],
+    // -s вывод print в консоль
+    // -v подробное отображение информации
+    // -m маркировка тестов рядом парамер "smoke", "not smoke", "smoke or regression"
+    "python.testing.pytestEnabled": true,
+    "python.pythonPath": "C:\\Users\\mi\\enviroments\\selenium_env\\Scripts\\python.exe",
+    "python.testing.pytestPath": "C:\\Users\\mi\\enviroments\\selenium_env\\Scripts\\pytest.exe",
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+}
