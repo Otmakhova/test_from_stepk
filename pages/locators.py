@@ -15,5 +15,12 @@ class LoginPageLocators(object):
     EMAIL_REGISTRATION_INPUT = (By.CSS_SELECTOR, "#id_registration-email")
     PASSWORD_REGISTRATION_INPUT = (By.CSS_SELECTOR, "#id_registration-password1")
     REGISTRATION_BUTTON = (By.CSS_SELECTOR,"[name = 'registration_submit']")
+
+class ProductPageLocators(object):
+    ADD_TO_BASKET_BUTTON = (By.CSS_SELECTOR, ".btn-add-to-basket")
+    SUCCESS_ALERT_TEXT = (By.CSS_SELECTOR, ".alert-success div")
+    PRICE_ALERT_TEXT = (By.XPATH, "//div[@class='alert alert-safe alert-noicon alert-info  fade in']/div/p[1]")
+    BOOK_NAME = (By.XPATH, "//div/h1")
+    BOOK_PRICE = (By.XPATH, "//p[@class = 'price_color']")
     
     
